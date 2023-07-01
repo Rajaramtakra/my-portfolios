@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { FaPaperPlane } from 'react-icons/fa';
 import TitleAlt from '../layouts/TitleAlt';
 import ServiceCard from '../layouts/ServiceCard';
-import { FaMobileAlt, FaCartArrowDown, FaWordpress, FaRecycle } from 'react-icons/fa';
+
 
 
 
@@ -18,13 +18,14 @@ const Service = () => {
 				<Link className='mt-2 md:mt-6 border-2 px-14 py-4 inline-block [&_svg]:inline-block text-[1rem] uppercase transition-all hover:bg-primary-200'>View In details <FaPaperPlane /></Link>
 			</div>
 			<div className="basis-full md:basis-1/2">
-				<ServiceCard icon={<FaMobileAlt />} title="Responsive Web Design" des="Responsive Web Design “Design websites which outstands your business” From designing simple websites to a robust one, I …" />
+				<ServiceCard />
+				{/*<ServiceCard icon={<FaMobileAlt />} title="Responsive Web Design" des="Responsive Web Design “Design websites which outstands your business” From designing simple websites to a robust one, I …" />
 
-				<ServiceCard icon={<FaCartArrowDown />} title="Eommerce Development" des="You have a store in a particular locality, you want to promote it. You want …" />
+				 <ServiceCard icon={<FaCartArrowDown />} title="Eommerce Development" des="You have a store in a particular locality, you want to promote it. You want …" />
 
 				<ServiceCard icon={<FaWordpress />} title="WordPress Customization" des="WordPress is an excellent tool for developing website. It is a web based software development …" />
 
-				<ServiceCard icon={<FaRecycle />} title="Website Maintainance" des="When you plant flowers, at a glance you will love its lively color and freshness. …" />
+				<ServiceCard icon={<FaRecycle />} title="Website Maintainance" des="When you plant flowers, at a glance you will love its lively color and freshness. …" /> */}
 			</div>
 		</div>
 	</section>
