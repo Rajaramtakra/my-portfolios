@@ -1,14 +1,14 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import banner from "../../assets/images/banner-img3.jpg";
+import banner from "../../../assets/images/banner-img3.jpg";
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { Link } from 'react-scroll';
 import { FaAngleDoubleDown } from 'react-icons/fa';
-import pattern from "../../assets/images/pattern.png";
+import pattern from "../../../assets/images/pattern.png";
 import { FaPaperPlane } from 'react-icons/fa';
-import TitleAlt from '../layouts/TitleAlt';
+import TitleAlt from '../../../components/layouts/TitleAlt';
 
 
 

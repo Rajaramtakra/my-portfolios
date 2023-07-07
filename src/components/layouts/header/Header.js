@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import logo from "../../assets/images/logo.png";
-import Navbar from '../navbar/Navbar';
+import logo from "../../../assets/images/logo.png";
+import Navbar from '../../navbar/Navbar';
 
 const Header = () => {
 	const [scroll, setScroll] = useState(false)

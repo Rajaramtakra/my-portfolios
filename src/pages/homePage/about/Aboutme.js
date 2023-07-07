@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import me from '../../assets/images/rajaram-takra-250x250.jpg';
-import signature from '../../assets/images/signature.png';
-import resume from '../../assets/images/rajaramtakra.pdf';
+import me from '../../../assets/images/rajaram-takra-250x250.jpg';
+import signature from '../../../assets/images/signature.png';
+import resume from '../../../assets/images/rajaramtakra.pdf';
 import { FaDownload, FaLongArrowAltRight } from 'react-icons/fa';
-import Title from '../layouts/Title';
+import Title from '../../../components/layouts/Title';
 import {motion} from 'framer-motion';
 
 const Aboutme = () => {

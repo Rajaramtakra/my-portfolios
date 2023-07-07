@@ -12,7 +12,7 @@ const ServiceCard = ({icon, title, des}) => {
 	// 	</div>
 	// // </div>
 	// <div>
-	<div className="">
+	<div>
 		{
 		serviceData.map(({icon, title, des}) => (
 					<div className='flex items-center mb-10'>

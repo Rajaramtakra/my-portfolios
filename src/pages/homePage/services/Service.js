@@ -1,9 +1,9 @@
 import React from 'react'
-import serviceBG from "../../assets/images/services.jpg";
+import serviceBG from "../../../assets/images/services.jpg";
 import { Link } from 'react-scroll';
 import { FaPaperPlane } from 'react-icons/fa';
-import TitleAlt from '../layouts/TitleAlt';
-import ServiceCard from '../layouts/ServiceCard';
+import TitleAlt from '../../../components/layouts/TitleAlt';
+import ServiceCard from '../../../components/layouts/ServiceCard';
 
 
 

@@ -1,5 +1,5 @@
-import React from 'react'
-import TitleAlt from '../layouts/TitleAlt'
+import React from 'react';
+import TitleAlt from '../../../components/layouts/TitleAlt';
 
 const Contact = () => {
   return (

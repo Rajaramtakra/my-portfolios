@@ -1,4 +1,12 @@
 import { FaMobileAlt, FaCartArrowDown, FaWordpress, FaRecycle } from 'react-icons/fa';
+import projectImage1 from '../assets/images/rajweblogo.jpg';
+import projectImage2 from '../assets/images/kodiak.jpg';
+import projectImage3 from '../assets/images/biloffice.jpg';
+import projectImage4 from '../assets/images/bailbond.jpg';
+import projectImage5 from '../assets/images/bhaktapurbazarlogo.jpg';
+import projectImage6 from '../assets/images/generalworkforce-lg.jpg';
+import projectImage7 from '../assets/images/complyscore.jpg';
+import projectImage8 from '../assets/images/windhorsesite-640x384.jpg';
 export const navLinksdata = [
 	{
 		_id: 1000,
@@ -59,4 +67,57 @@ export const serviceData = [
 		title: "Website Maintainance",
 		des: "When you plant flowers, at a glance you will love its lively color and freshness. …"
 	}
+]
+
+export const portfolioData = [
+	{
+		image: projectImage1,
+		title: "Rajweb Design",
+		des: "Graphic Design, Logo",
+	},
+	{
+		image: projectImage2,
+		title: "Kodiak PM",
+		des: "Web Development, Wordpress",
+	},
+	{
+		image: projectImage3,
+		title: "Biloffice Furniture",
+		des: "Web Development, Wordpress",
+	},
+	{
+		image: projectImage4,
+		title: "Bail Bonds",
+		des: "Opencart, Web Development",
+	},
+	{
+		image: projectImage5,
+		title: "Bhaktapur Bazar",
+		des: "Graphic Design, Logo",
+	},
+	{
+		image: projectImage6,
+		title: "General Workforce",
+		des: "Opencart, Web Development",
+	},
+	{
+		image: projectImage7,
+		title: "Complyscore",
+		des: "Web Development, Wordpress",
+	},
+	{
+		image: projectImage8,
+		title: "Complyscore",
+		des: "Design",
+	},
+]
+
+export const countData = [
+	{
+		start: 0,
+		end: 5,
+		duration: 10,
+		des: "TOTAL WORKING EXPERIENCE",
+
+	},
 ]
