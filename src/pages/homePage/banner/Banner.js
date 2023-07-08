@@ -9,6 +9,7 @@ import { FaAngleDoubleDown } from 'react-icons/fa';
 import pattern from "../../../assets/images/pattern.png";
 import { FaPaperPlane } from 'react-icons/fa';
 import TitleAlt from '../../../components/layouts/TitleAlt';
+import { Parallax } from "react-parallax";
 
 
 
@@ -32,7 +33,8 @@ const Banner = () => {
 	
   return (
 	<div id='home'>
-        <section className='relative z-0 pt-26 h-[100vh] text-white flex flex-col justify-center text-center' style={{ backgroundImage:`url(${banner})` }}>
+        <Parallax bgImage={banner} strength={500}>
+        <section className='relative z-0 pt-26 h-[100vh] text-white flex flex-col justify-center text-center'>
             <Particles className='[&_canvas]:!absolute [&_canvas]:top-0 [&_canvas]:left-0 [&_canvas]:opacity-90'
                 id="tsparticles"
                 init={particlesInit}
@@ -118,7 +120,9 @@ const Banner = () => {
             <FaAngleDoubleDown className='cursor-pointer' />
             </Link>
         </div>
+        
         </section>
+        </Parallax>
 
         <section id='info' className='relative bg-primary z-10 py-12 pb-24 lg:pb-32 xl:py-28 xl:pb-40 before:bg-primary-100/75 before:h-full before:w-full before:absolute before:top-0 before:left-0 before:-z-10 after:bg-white after:h-16 lg:after:h-28 after:w-full after:-skew-y-2 after:absolute after:-bottom-10 after:left-0 after:-z-10' style={{background:`url(${pattern})`}}>
         <div className="relative max-w-screen-lg m-auto text-white px-4 [&_.heading]:hover:after:w-16 [&_.heading_span]:hover:-top-4">

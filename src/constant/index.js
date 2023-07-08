@@ -7,6 +7,9 @@ import projectImage5 from '../assets/images/bhaktapurbazarlogo.jpg';
 import projectImage6 from '../assets/images/generalworkforce-lg.jpg';
 import projectImage7 from '../assets/images/complyscore.jpg';
 import projectImage8 from '../assets/images/windhorsesite-640x384.jpg';
+import mike from '../assets/images/mike.jpg';
+import janice from '../assets/images/janice.png';
+import john from '../assets/images/chris.png';
 export const navLinksdata = [
 	{
 		_id: 1000,
@@ -119,5 +122,40 @@ export const countData = [
 		duration: 10,
 		des: "TOTAL WORKING EXPERIENCE",
 
+	},
+	{
+		start: 0,
+		end: 300,
+		duration: 5,
+		des: "PROJECTS DONE",
+
+	},
+	{
+		start: 0,
+		end: 150,
+		duration: 5,
+		des: "HAPPY CLIENTS",
+
+	},
+]
+
+export const testimonialData = [
+	{
+		image: mike,
+		author: "Mike",
+		degination: "Photographer",
+		des: "Rajaram is an exceptional graphic designer and Web Developer. He created my logo and my website, and we both are happy. I am in first page of Google because of his kind support and SEO works."
+	},
+	{
+		image: janice,
+		author: "janice",
+		degination: "Designer",
+		des: "Working with Rajaram was really inspiring and painless. The result of his work was simply amazing because he really designed website higher than my expectations."
+	},
+	{
+		image: john,
+		author: "John",
+		degination: "Photographer",
+		des: "Rajaram is an exceptional graphic designer and Web Developer. He created my logo and my website, and we both are happy. I am in first page of Google because of his kind support and SEO works."
 	},
 ]
