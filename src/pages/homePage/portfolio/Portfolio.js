@@ -18,7 +18,7 @@ const Portfolio = () => {
 		<div className="relative max-w-screen-xl m-auto py-10 pb-24 px-4 [&_.heading]:hover:after:w-16 [&_.heading_span]:hover:-top-4">
 			<Title title="Portfolio" subTitle="Portfolio" />
 			<p>With my expertise technical skills my work portfolio is not only limited to national clients but has also embarked to international clients. My love for my work has made me work more and garnish my skills. Mentioned are the areas and clients with whom I have closely worked with.</p>
-			<div className='[&_ul]:space-x-2 text-center [&_li]:inline-block [&_li]:border [&_li]:border-primary [&_li]:py-2 [&_li]:px-4 [&_li:hover]:bg-primary [&_li:hover]:text-white [&_li]:transition-all [&_li]:duration-300 [&_li]:cursor-pointer'>
+			<div className='mt-8 [&_ul]:space-x-2 text-center [&_li]:inline-block [&_li]:border [&_li]:border-primary [&_li]:py-2 [&_li]:px-4 [&_li:hover]:bg-primary [&_li:hover]:text-white [&_li]:transition-all [&_li]:duration-300 [&_li]:cursor-pointer'>
 			<ul>
 				<li 
 				onClick={() => 

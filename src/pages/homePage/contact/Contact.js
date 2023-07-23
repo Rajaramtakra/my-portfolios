@@ -10,7 +10,7 @@ const Contact = () => {
 	<Parallax bgImage={mapBg} strength={300}>
 	<section id='contact' className='relative z-10 py-28 xl:py-40 xl:pb-52 before:bg-primary-100/90 before:h-full before:w-full before:absolute before:top-0 before:left-0 before:-z-10'>
 	  <div className="relative max-w-screen-xl m-auto text-white px-4">
-		<div className="text-center [&_.heading]:hover:after:w-16 [&_.heading_span]:hover:-top-4 [&_.heading:after]:m-auto">
+			<div className="text-center [&_.heading]:hover:after:w-16 [&_.heading_span]:hover:-top-4 [&_.heading:after]:m-auto mb-20">
 			<TitleAlt title="Contact Me" subTitle="Contact Me" />
 			</div>
 			<div className="flex flex-wrap">

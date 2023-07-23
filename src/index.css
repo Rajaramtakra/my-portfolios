@@ -19,6 +19,61 @@ body {
 	text-black/60;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	@apply font-titleFont
+	leading-none;
+}
+
+h1 {
+	@apply text-[1.875rem];
+}
+
+h2 {
+	@apply text-display4;
+}
+
+h3, h4 {
+	@apply text-[1.375rem];
+}
+
+@media (min-width: 768px) {
+	h1 {
+		@apply text-display3;
+	}
+}
+
+@media (min-width: 992px) {
+	h1 {
+		@apply text-display2;
+	}
+
+	h2 {
+		@apply text-display3;
+	}
+
+	h3 {
+		@apply text-display4;
+	}
+
+	h4 {
+		@apply text-display4;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		@apply text-display1;
+	}
+
+	h2 {
+		@apply text-display2;
+	}
+
+	h3 {
+		@apply text-display3;
+	}
+}
+
 input, textarea {
 	@apply bg-transparent border-b border-white w-full;
 }
