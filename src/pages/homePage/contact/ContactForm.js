@@ -2,9 +2,9 @@ import React from 'react'
 
 const ContactForm = () => {
   return (
-	<form className='flex flex-wrap [&_label]:block -mx-4 [&_label]:absolute [&_label]:-translate-y-8 [&_label]:left-4 [&_input:focus+label]:-translate-y-16 [&_input:placeholder-shown+label]:-translate-y-16 [&_label]:transition-all [&_label]:duration-300'>
+	<form className='flex flex-wrap -mx-4 floating-form'>
 		<div className='w-full md:w-1/2 px-4 mb-12 relative'>
-			<input type="text" placeholder=" "/>
+			<input type="text" placeholder='' />
 			<label>Name</label>
 		</div>
 		<div className='w-full md:w-1/2 px-4 mb-12 relative'>
@@ -12,18 +12,22 @@ const ContactForm = () => {
 			<label>Email</label>
 		</div>
 		<div className='w-full md:w-1/2 px-4 mb-12 relative'>
-			<input type="phone" />
+			<input type="phone" placeholder='' />
 			<label>Phone</label>
 		</div>
 		<div className='w-full md:w-1/2 px-4 mb-12 relative'>
-			<input type="text" />
+			<input type="text" placeholder='' />
 			<label>Address</label>
 		</div>
-		<div className='w-full px-4'>
-			<textarea rows="2"></textarea>
+		<div className='w-full px-4 mb-12 relative'>
+			<textarea rows="2" placeholder='' ></textarea>
 			<label>Message</label>
 		</div>
+		<div className='w-full px-4 mb-12'>
+		<button className='btn btn-border' type='submit'>Submit Now</button>
+		</div>
 	</form>
+	
   )
 }
 

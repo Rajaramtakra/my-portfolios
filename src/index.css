@@ -74,6 +74,14 @@ h3, h4 {
 	}
 }
 
+.floating-form {
+	@apply [&_label]:absolute [&_label]:pointer-events-none [&_label]:text-white/70 [&_label]:-top-5 [&_label]:left-2 [&_input:focus+label]:text-white [&_input:focus+label]:!-top-5 [&_input:focus+label]:!scale-75 [&_input:focus+label]:!left-2 [&_label]:scale-75 [&_input:placeholder-shown+label]:left-4 [&_textarea:placeholder-shown+label]:left-4 [&_textarea:placeholder-shown+label]:top-0 [&_textarea:placeholder-shown+label]:scale-100 [&_textarea:focus+label]:!-top-5 [&_input:placeholder-shown+label]:top-0 [&_input:placeholder-shown+label]:scale-100 [&_label]:transition-all [&_label]:duration-300 [&_input:focus]:outline-none [&_textarea:focus]:outline-none [&_input]:border-b-2 [&_textarea]:border-b-2 [&_input:focus]:border-white [&_input]:border-white/70 [&_textarea:focus]:border-white [&_textarea]:border-white/70
+}
+
 input, textarea {
-	@apply bg-transparent border-b border-white w-full;
+	@apply bg-transparent border-b-2 border-white w-full;
+}
+
+.btn-border {
+	@apply border-2 px-14 py-4 inline-block text-[1rem] uppercase transition-all hover:bg-primary-200;
 }
