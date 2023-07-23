@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from '../../../components/layouts/Title';
-// import Slider from "react-slick";
 import TestimonialItem from '../../../components/layouts/TestimonialItem';
 
 const Testimonial = () => {

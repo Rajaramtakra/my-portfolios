@@ -7,7 +7,7 @@ import { Parallax } from "react-parallax";
 
 const Details = () => {
   return (
-	<Parallax bgImage={detailsBg} strength={500}>
+	<Parallax bgImage={detailsBg} strength={300}>
 	<section id='details' className='relative  z-10 py-28 xl:py-40 xl:pb-52 before:bg-primary-100/80 before:h-full before:w-full before:absolute before:top-0 before:left-0 before:-z-10 after:bg-white after:h-28 after:w-full after:skew-y-2 after:absolute after:-bottom-10 after:left-0  after:-z-10'>
 		
 	  <div className="relative text-center max-w-screen-xl m-auto text-white px-4">

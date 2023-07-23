@@ -19,66 +19,6 @@ body {
 	text-black/60;
 }
 
-	h1{
-		@apply text-3xl sm:text-4xl	lg:text-5xl	2xl:text-display1;	
-	}
-
-	h2 {
-		@apply 
-		text-2xl        
-		sm:text-3xl
-		lg:text-4xl
-		2xl:text-display2;
-	}
-	
-	h3 {
-		@apply         
-		text-2xl        
-		lg:text-display3;
-	}
-	
-	h4 {
-		@apply 
-		text-xl
-		lg:text-display4;
-	}
-	
-	h5 {
-		@apply
-		text-lg
-		lg:text-xl;      
-	}
-	
-	h6 {
-		@apply
-		text-base
-		lg:text-lg;      
-	}
-	
-	h1, h2, h3, h4, h5, h6 {
-		@apply 	
-		leading-[1.2] 
-		mb-4
-		font-titleFont
-	}
-
-	h2, h3, h4, h5, h6 {
-		@apply 
-		text-black
-	}
-	
-	p {
-		@apply 
-		mb-4;
-	}
-	
-	a {
-		@apply
-		transition-all
-		cursor-pointer
-	}
-
-	canvas {
-		@apply
-		!absolute
-	}
+input, textarea {
+	@apply bg-transparent border-b border-white w-full;
+}

@@ -1,4 +1,4 @@
-import { FaMobileAlt, FaCartArrowDown, FaWordpress, FaRecycle } from 'react-icons/fa';
+import { FaMobileAlt, FaCartArrowDown, FaWordpress, FaRecycle, FaLinkedin, FaFacebookSquare, FaTwitterSquare } from 'react-icons/fa';
 import projectImage1 from '../assets/images/rajweblogo.jpg';
 import projectImage2 from '../assets/images/kodiak.jpg';
 import projectImage3 from '../assets/images/biloffice.jpg';
@@ -157,5 +157,20 @@ export const testimonialData = [
 		author: "John",
 		degination: "Photographer",
 		des: "Rajaram is an exceptional graphic designer and Web Developer. He created my logo and my website, and we both are happy. I am in first page of Google because of his kind support and SEO works."
+	},
+]
+
+export const socialData = [
+	{
+		icon: <FaFacebookSquare />,
+		link: "https://www.facebook.com/profile.php?id=100004598074775",
+	},
+	{
+		icon: <FaTwitterSquare />,
+		link: "https://twitter.com/"
+	},
+	{
+		icon: <FaLinkedin />,
+		link: "https://www.linkedin.com/in/raja-takra-65519881/"
 	},
 ]

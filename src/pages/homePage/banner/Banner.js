@@ -33,7 +33,7 @@ const Banner = () => {
 	
   return (
 	<div id='home'>
-        <Parallax bgImage={banner} strength={500}>
+        <Parallax bgImage={banner} strength={300}>
         <section className='relative z-0 pt-26 h-[100vh] text-white flex flex-col justify-center text-center'>
             <Particles className='[&_canvas]:!absolute [&_canvas]:top-0 [&_canvas]:left-0 [&_canvas]:opacity-90'
                 id="tsparticles"
