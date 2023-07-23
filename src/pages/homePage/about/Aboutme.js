@@ -42,8 +42,8 @@ const Aboutme = () => {
 									initial ={{ x: "-100%", opacity: 0}}
 									whileInView={{ x: 0, opacity: 1 }}
 									transition={{duration: 1, delay: 0.5}}
-									className='w-full block h-full bg-gradient-to-r from-primary via-secondary/50 to-secondary rounded-md'>
-									<span className='absolute right-0 -top-10'>100%</span>
+									className='w-[99%] block h-full bg-gradient-to-r from-primary via-secondary/50 to-secondary rounded-md'>
+									<span className='absolute right-0 -top-10'>99%</span>
 								</motion.span>
 							</span>
 						</div>
@@ -79,6 +79,18 @@ const Aboutme = () => {
 								transition={{duration: 1, delay: 0.5}}
 								className='w-[95%] block h-full bg-gradient-to-r from-primary via-secondary/50 to-secondary rounded-md'>
 								<span className='absolute right-0 -top-10'>95%</span>
+							</motion.span>
+						</span>
+						</div>
+						<div className='relative mt-8'>
+						<p className='uppercase'>Tailwind Css</p>
+						<span className='w-full h-2 block rounded-md bg-gray-300'>
+							<motion.span
+								initial ={{ x: "-100%", opacity: 0}}
+								whileInView={{ x: 0, opacity: 1 }}
+								transition={{duration: 1, delay: 0.5}}
+								className='w-[85%] block h-full bg-gradient-to-r from-primary via-secondary/50 to-secondary rounded-md'>
+								<span className='absolute right-0 -top-10'>85%</span>
 							</motion.span>
 						</span>
 						</div>
